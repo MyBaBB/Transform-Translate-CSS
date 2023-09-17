@@ -9,6 +9,31 @@
 @tailwind components;
 @tailwind utilities;
 
+/* xxxxxxxxxxxxxxxxxxxxxx its all about ⬇️the Button  xxxxxxxxxxxxxxxxxx */
+ #search-button {
+   border:none;
+   width: 200px;
+   height: 50px;
+   border-radius: 10px;
+   border: -2px ;
+   background-color: var(--VARLIGHTBLUEFEATHER);
+ }
+
+
+
+
+
+
+
+
+
+
+
+/* xxxxxxxxxxxxxxxxxxxxxx its all about ⬇⬆️the Button xxxxxxxxxxxxxxxxxx */
+
+
+
+/* xxxxxxxxxxxxxxxxxxxxxx its all about ⬇️the BEESxxxxxxxxxxxxxxxxxx */
 .container {
     justify-content: center;
     align-items: center;
@@ -20,19 +45,14 @@
     border-radius: 10px;
     background-color: #7d6262;
     margin: 0 auto;
-  }
-  
-#beeSpin {
+   }
+  #beeSpin {
    rotate: 25deg;
 }
 #beeSpin2 {
    rotate: 247deg;
 }
-
-
-
 .item {
- 
   width: 50px;  
   height: 50px;  
 }
@@ -63,101 +83,57 @@ div.reference::before {
    height: 99vh;
    background: rgba(67, 31, 31, 0.32);
 }
-
+/* xxxxxxxxxxxxxxxxxxxxxx its all ⬆️ about the BEESxxxxxxxxxxxxxxxxxx */
 /* xxxs */
 @media (min-width: 300px) {
-     
-    
      .container {
         max-width: 300px;
-        
      }
   } 
 @media (min-width: 350px) {
-     
-    
      .container {
         max-width: 350px;
-        
      }
   } 
-
 /* xxs */
   @media (min-width: 400px) {
-    
-     
 .container {
         max-width: 400px;
-        
      }
   } 
    /* xs */
   @media (min-width: 500px) {
-    
-  
 .container {
         max-width: 500px;
-        
      }
   } 
-
- 
    /* s */
   @media (min-width: 640px) {
-    
 .container {
         max-width: 640px;
-         
      }
   }  
-
-
-
 /* md */
   @media (min-width: 768px) {
 .container {
         max-width: 768px;
-      
      }
     } 
-
-
-
 /* lg */
   @media (min-width: 1024px) {
-   
-        
-       
-      
-   
-
      .container {
                max-width: 1024px;
-               
      }  
   }  
-
-
-
 /* xl */
   @media (min-width: 1280px) {
-     
-        
-         
-    
 .container {
         max-width: 1280px;
-         
      }
   }  
-
 /* 2xl */
  @media (min-width: 1536px) {
-    
-       
-   
 .container {
         max-width: 1536px;
-         
-     }
+}
  }  

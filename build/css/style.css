@@ -578,14 +578,6 @@ video {
   margin: 2rem;
 }
 
-.block{
-  display: block;
-}
-
-.inline{
-  display: inline;
-}
-
 .flex{
   display: flex;
 }
@@ -634,6 +626,21 @@ video {
   --tw-bg-opacity: 1;
   background-color: rgb(185 28 28 / var(--tw-bg-opacity));
 }
+
+/* xxxxxxxxxxxxxxxxxxxxxx its all about ⬇️the Button  xxxxxxxxxxxxxxxxxx */
+
+#search-button {
+  border:none;
+  width: 200px;
+  height: 50px;
+  border-radius: 10px;
+  border: -2px ;
+  background-color: var(--VARLIGHTBLUEFEATHER);
+}
+
+/* xxxxxxxxxxxxxxxxxxxxxx its all about ⬇⬆️the Button xxxxxxxxxxxxxxxxxx */
+
+/* xxxxxxxxxxxxxxxxxxxxxx its all about ⬇️the BEESxxxxxxxxxxxxxxxxxx */
 
 .container {
   justify-content: center;
@@ -689,6 +696,8 @@ div.reference::before {
   height: 99vh;
   background: rgba(67, 31, 31, 0.32);
 }
+
+/* xxxxxxxxxxxxxxxxxxxxxx its all ⬆️ about the BEESxxxxxxxxxxxxxxxxxx */
 
 /* xxxs */
 
