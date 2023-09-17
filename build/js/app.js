@@ -5,8 +5,9 @@ searchButton.addEventListener('click', toggleButton)
 
 function toggleButton() {
   searchButtonContent.classList.toggle('loading')
+  searchButtonContent.classList.toggle('please wait')
 }
 
-/* XXXXXXXXXXXXXXXXXXXXXXXX searching button with rotating circle. xxxxxxxxxxxxxxxxx */
+/* XXXXXXXXXXXXXXXXXXXXXXXX searching button with rotating circle.xxxxxxxxxxxxxxxxx */
 
 
