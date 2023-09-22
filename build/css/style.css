@@ -570,6 +570,10 @@ video {
   }
 }
 
+.visible{
+  visibility: visible;
+}
+
 .m-4{
   margin: 1rem;
 }
@@ -580,6 +584,10 @@ video {
 
 .flex{
   display: flex;
+}
+
+.hidden{
+  display: none;
 }
 
 .-rotate-6{
